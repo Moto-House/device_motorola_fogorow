@@ -114,23 +114,7 @@ vendor/lib64/hw/motorola.hardware.fdrcontrol@1.0-impl.so
 vendor/lib64/motorola.hardware.fdrcontrol@1.0.so
 
 # NFC
-vendor/bin/hw/android.hardware.nfc@1.2-service
-vendor/etc/init/android.hardware.nfc@1.2-service.rc
-vendor/lib/hw/android.hardware.nfc@1.0-impl.so
-vendor/lib/libQstAlgo_Nfc.so
-vendor/lib/libQstAlgo_NoNfc.so
-vendor/lib/libmemsic_Nfc.so
-vendor/lib/libmemsic_NoNfc.so
-vendor/lib/libnxp_extamp_intf.so
-vendor/lib64/libQstAlgo_Nfc.so
-vendor/lib64/libQstAlgo_NoNfc.so
-vendor/lib64/libmemsic_Nfc.so
-vendor/lib64/libmemsic_NoNfc.so
-vendor/lib64/libnxp_extamp_intf.so
 vendor/lib64/libpn560_fw.so
-vendor/lib64/nfc_nci_nxp.so
-vendor/lib64/vendor.nxp.nxpese@1.0.so
-vendor/lib64/vendor.nxp.nxpnfc@2.0.so
 
 # Radio
 vendor/bin/hw/vendor.mediatek.hardware.nwk_opt@1.0-service
