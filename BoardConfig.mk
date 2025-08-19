@@ -10,6 +10,9 @@ KERNEL_PATH := device/motorola/fogorow-kernel
 # Inherit from mt6768-common
 -include device/motorola/mt6768-common/BoardConfigCommon.mk
 
+# HIDL
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/vintf/manifest.xml
+
 # Kernel
 BOARD_PREBUILT_DTBIMAGE_DIR := $(KERNEL_PATH)/dtb
 BOARD_MKBOOTIMG_ARGS += --dtb $(BOARD_PREBUILT_DTBIMAGE_DIR)/dtb.img
